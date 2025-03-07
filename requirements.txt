@@ -1,2 +1,6 @@
-# This game uses only Python standard library
-# No external dependencies required
+# Required for enhanced features
+colorama>=0.4.4  # For colored terminal output
+pygame>=2.1.0    # For sound effects
+
+# Note: The game will still work without these packages,
+# but with reduced features (no colors or sounds)
